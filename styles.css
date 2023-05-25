@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ‘Open Sans’, sans-serif;
+  }
+
+
+  body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: linear-gradient(to bottom right, #eef2f3, #dde1e5);
+    
+  }
+  
+h1, h2 {
+    color: #2c3e50;
+}
+.header-container {
+  text-align: center;
+  padding: 20px;
+}
+   
+  
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 3rem;
+  color: #333;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.about-me-highlight {
+  display: inline;
+  font-weight: 300;
+  color: #2980b9;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+  max-width: 60%;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3498db;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-text {
+  flex: 1;
+  text-align: center;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease; 
+}
+
+.home-image img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+/* Contact me   */
+
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icon {
+  color: #3498db;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #2980b9;
+}
+/* end of contact me  */
+
+
+.footer-container {
+  background-color: #34495e;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-text,
+  .home-image {
+      flex: 100%;
+      max-width: 100%;
+      margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .service-item {
+      margin-bottom: 10px;
+  }
+}
+
+
+  
